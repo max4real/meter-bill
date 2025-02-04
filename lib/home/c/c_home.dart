@@ -17,8 +17,23 @@ class HomeController extends GetxController {
   int currentUnit_ = 0;
   DateTime currentDate = DateTime.now();
 
-  final List<int> unitThresholds = [30, 20, 25, 25, 25]; // Unit breakpoints
-  final List<int> rates = [35, 50, 70, 90, 110, 125]; // Corresponding rates
+  final List<int> unitThresholds = [
+    30,
+    20,
+    25,
+    25,
+    50,
+    50,
+  ]; // Unit breakpoints
+  final List<int> rates = [
+    35,
+    50,
+    70,
+    90,
+    110,
+    120,
+    125
+  ]; // Corresponding rates
 
   @override
   void onInit() {

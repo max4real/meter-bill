@@ -38,15 +38,6 @@ class HomePage extends StatelessWidget {
               color: secondary,
             ),
           ),
-          // IconButton(
-          //   onPressed: () {
-          //     controller.getall();
-          //   },
-          //   icon: Icon(
-          //     Icons.home,
-          //     color: secondary,
-          //   ),
-          // )
         ],
       ),
       body: SingleChildScrollView(
